@@ -1,0 +1,22 @@
+# Node.js
+node_modules
+npm-debug.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Build output
+build
+dist
+
+# Git
+.git
+.gitignore
+
+# Editor and OS files
+.DS_Store
+.idea
+.vscode
+*.swp
+*.swo 
