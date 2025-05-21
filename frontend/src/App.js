@@ -131,6 +131,10 @@ const App = () => {
           </div>
         )}
         
+        <div className="result-meta">
+          <pre style={{ width: '600px', maxWidth: '100%' }}>User Info: {JSON.stringify(result?.cf_access_jwt_assertion?.custom, null, 2)}</pre>
+        </div>
+        
         {serverInfo && (
           <div className="server-info">
             <p>Connected to: {serverInfo.name} v{serverInfo.version}</p>

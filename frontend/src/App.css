@@ -151,6 +151,9 @@ h1 {
   font-size: 14px;
   color: #666;
   margin-top: 10px;
+  width: 100%;
+  max-width: 600px;
+  word-wrap: break-word;
 }
 
 /* Error message styles */
