@@ -59,7 +59,15 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="message-converter">
-        <h1>Bluepacs Message Converter</h1>
+        <div className="header-container">
+          <h1>Bluepacs Message Converter</h1>
+          <button 
+            className="logout-button"
+            onClick={() => window.location.href = 'https://bluepacs.cloudflareaccess.com/cdn-cgi/access/logout'}
+          >
+            Logout
+          </button>
+        </div>
         <p className="subtitle">Enter a message and choose conversion type</p>
         
         <form onSubmit={handleSubmit}>

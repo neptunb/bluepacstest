@@ -17,10 +17,31 @@
   max-width: 600px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 h1 {
   color: #333;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 0;
+}
+
+.logout-button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e04444;
 }
 
 .subtitle {
